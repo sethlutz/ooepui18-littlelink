@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+<!--
+  To change the theme, change the class on the html tag below to one of:
+  - theme-auto: Automatically switches based on user's system preferences
+  - theme-light: Forces light theme
+  - theme-dark: Forces dark theme
+-->
+
+<html class="theme-auto" lang="en"> <!-- Update `class="theme-auto"` with your preference -->
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Page Title - Change this to your name/brand (50-60 characters recommended) -->
+    <title>Seth Lutz</title>
+    <link rel="icon" type="image/png" href="images/avatar.png"> <!-- Update this with your own favicon -->
+
+    <!-- Meta Description - Write a description (150-160 characters recommended) -->
+    <meta name="description" content="Replace this with your own, this appears in search results and when sharing.">
+
+    <!-- Canonical URL - Helps prevent duplicate content issues -->
+    <link rel="canonical" href="https://yourwebsite.com">
+
+    <!-- Author Information -->
+    <meta name="author" content="Your Name">
+
+    <!-- Browser UI Color - Matches the default light/dark theme backgrounds -->
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#121212" media="(prefers-color-scheme: dark)">
+
+    <!-- Social Sharing (Open Graph & Twitter) - Uncomment and fill in to control how your page
+         looks when shared on social platforms and in chat apps.
+         og:url and og:image must be full absolute URLs. -->
+    <!--
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Your Name">
+    <meta property="og:description" content="A short description of your page.">
+    <meta property="og:url" content="https://yourwebsite.com">
+    <meta property="og:image" content="https://yourwebsite.com/images/avatar@2x.png">
+    <meta name="twitter:card" content="summary">
+    -->
+
+    <!-- Font Preloads - Lets the browser fetch fonts in parallel with the stylesheets -->
+    <link rel="preload" href="fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/brands.css">
+
+    <!-- LittleLink Extended Stylesheet (Optional) -->
+    <!-- <link rel="stylesheet" href="css/brands-extended.css"> -->
+    <!-- Learn more at https://github.com/sethcottle/littlelink-extended.
+         Remove comments if you've added LittleLink Extended dependencies -->
+
+  </head>
+
+<body>
+
+    <div class="container">
+        <div class="column">
+          <main>
+
+            <!--
+              By default, the Avatar is rounded. Use the following:
+              - avatar--rounded: Automatically rounds the image
+              - avatar--soft: Slightly rounds the image
+              - avatar--none: Removes any rounding
+
+              Be sure to replace the src with your own image path and update the alt text
+            -->
+            <img class="avatar avatar--rounded" src="images/avatar.png" srcset="images/avatar@2x.png 2x" alt="Seth Lutz" width="128" height="128" fetchpriority="high">
+
+            <!-- Replace with your name or brand -->
+            <h1>Seth Lutz</h1>
+
+            <!-- All your buttons go here -->
+            <nav class="button-stack" aria-label="Links">
+
+              <!-- Instagram -->
+              <a class="button button-instagram" href="https://instagram.com/ooepui18" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/instagram.svg" alt="Instagram Logo">Instagram</a>
+
+              <!-- X -->
+              <a class="button button-x" href="https://twitter.com/ooepui18" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/x.svg" alt="X Logo">Follow on X</a>
+
+              <!-- Bluesky -->
+              <a class="button button-bluesky" href="https://bsky.app/profile/ooepui18.org" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/bluesky.svg" alt="Bluesky Logo">Bluesky</a>
+
+              <!-- Mastodon -->
+              <a class="button button-mastodon" href="#" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/mastodon.svg" alt="Mastodon Logo">Mastodon</a>
+
+              <!-- Tumblr -->
+              <a class="button button-tumb" href="https://tumblr.ooepui18.org" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/tumblr.svg" alt="Tumblr Logo">Tumblr</a>
+
+              
+
+              
+
+              <!-- Spotify Alt -->
+              <a class="button button-spotify-alt" href="https://open.spotify.com/playlist/5uKjV1g7e8j7Ig1hDiYwQu" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/spotify-alt.svg" alt="Spotify Logo">RADIO SETH EXPERIMENTAL FM</a>
+
+              <!-- Bandcamp -->
+              <a class="button button-bandcamp" href="https://bandcamp.com/ooepui18" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/bandcamp.svg" alt="Bandcamp Logo">Bandcamp (collection/wishlist)</a>
+
+              <!-- Discogs Alt -->
+              <a class="button button-discogs-alt" href="https://discogs.com/user/ooepui18/collection" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/discogs-alt.svg" alt="Discogs Logo">Discogs (collection/for sale [?])</a>
+
+              <!-- Last.fm -->
+              <a class="button button-last-fm" href="https://last.fm/user/ooepui18" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/last-fm.svg" alt="Last.fm Logo">Last.fm</a>
+
+              <!-- Letterboxd -->
+              <a class="button button-letterboxd" href="https://letterboxd.com/ooepui18" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/letterboxd.svg" alt="Letterboxd Logo">Letterboxd</a>
+
+              <!-- Goodreads -->
+              <a class="button button-goodreads" href="https://goodreads.com/ooepui18" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/goodreads.svg" alt="Goodreads Logo">Goodreads</a>
+
+              <!-- Flickr -->
+              <a class="button button-flickr" href="https://flickr.com/people/205075307@N06" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/flickr.svg" alt="Flickr Logo">Flickr</a>
+
+              <!-- Amazon -->
+              <a class="button button-amazon" href="https://amazon.com/hz/wishlist/ls/3CMY6U8G62OR9" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/amazon.svg" alt="Amazon Wishlist Logo">Amazon Wishlist</a>
+
+              <!-- Signal -->
+              <a class="button button-signal" href="https://signal.me/#eu/5U7XVSWAVQn45DkmkAH-zDJZspefapW6bnEYm-3RVQa2-HBa3elDrq2VubDzCTpo" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/signal.svg" alt="Signal Logo">Signal</a>
+
+              <!-- Telegram -->
+              <a class="button button-telegram" href="https://t.me/ooepui18" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/telegram.svg" alt="Telegram Logo">Telegram</a>
+
+              <!-- Generic Email -->
+              <a class="button button-default" href="mailto:webmaster@ooepui18.org" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/generic-email.svg" alt="Email Icon">Email Us</a>
+
+              <!-- Generic Website -->
+              <a class="button button-default" href="https://marxists.org" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/marx.png" alt="Website Icon">Marxists.org</a>
+
+      </nav>
+      </main>
+
+      <!-- Feel free to add your own footer information, including updating `privacy.html` to reflect how your LittleLink fork is set up -->
+      <footer>
+        <a href="privacy.html">Privacy Policy</a> | Build your own by forking <a href="https://littlelink.io" target="_blank" rel="noopener">LittleLink</a>
+      </footer>
+
+    </div>
+  </div>
+
+</body>
+
+</html>
